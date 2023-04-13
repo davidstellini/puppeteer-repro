@@ -9,6 +9,7 @@ const puppeteer = require('puppeteer');
 
     if (content.length > 100) {
         console.log('Success: ' + content.substring(0, 100));
+        console.log('Deploy test');
     }
 
     await browser.close();
